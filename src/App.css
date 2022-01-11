@@ -4,21 +4,40 @@
   min-height: 100vh;
 }
 
+/* ABOUT SECTION */
+
+#about {
+  padding-top: 50px;
+}
+
+/* SKILLS SECTION */
+
+#skills {
+}
+
+/* PROJECTS SECTION */
+
 .card-group {
   justify-content: center;
 }
 
 .card {
-  max-width: 400px;
-  padding: 10px;
-  margin: 20px 5vw;
+  max-width: 380px;
+  padding: 15px;
+  margin: 30px;
 }
 
 .card-logo {
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .card-button {
-  width: 150px;
+  width: 160px;
   margin: 10px;
+}
+
+/* CONTACT SECTION */
+
+#contact {
 }
