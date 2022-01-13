@@ -82,6 +82,55 @@ function App() {
 
       <section id="skills">
         <h1>Skills</h1>
+        <CardGroup className="skill-card-group">
+          <Card>
+            <Image className="skill-icon" src="./logos/html.png" />
+            <h2>HTML</h2>
+          </Card>
+          <Card>
+            <Image className="skill-icon" src="./logos/css.png" />
+            <h2>CSS</h2>
+          </Card>
+          <Card>
+            <Image className="skill-icon" src="./logos/js.png" />
+            <h2>JavaScript</h2>
+          </Card>
+        </CardGroup>
+        <CardGroup className="skill-card-group">
+          <Card>
+            <Image className="skill-icon" src="./logos/bootstrap.svg" />
+            <h2>Boostrap</h2>
+          </Card>
+          <Card>
+            <Image className="skill-icon" src="./logos/react.png" />
+            <h2>React</h2>
+          </Card>
+          <Card>
+            <Image className="skill-icon" src="./logos/native.png" />
+            <h2>React Native</h2>
+          </Card>
+        </CardGroup>
+        <CardGroup className="skill-card-group">
+          <Card>
+            <Image className="skill-icon" src="./logos/node.png" />
+            <h2>Node.js</h2>
+          </Card>
+          <Card>
+            <Image className="skill-icon" src="./logos/express.svg" />
+            <h2>Express.js</h2>
+          </Card>
+
+          <Card>
+            <Image className="skill-icon" src="./logos/sql.png" />
+            <h2>PostgreSQL</h2>
+          </Card>
+        </CardGroup>
+        <CardGroup className="skill-card-group">
+          <Card>
+            <Image className="skill-icon" src="./logos/jest.png" />
+            <h2>Jest</h2>
+          </Card>
+        </CardGroup>
       </section>
 
       <section id="projects">

@@ -37,7 +37,14 @@ h1 {
 
 /* SKILLS SECTION */
 
-#skills {
+.skill-card-group {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.skill-icon {
+  height: 100px;
+  margin: 10px auto;
 }
 
 /* PROJECTS SECTION */
