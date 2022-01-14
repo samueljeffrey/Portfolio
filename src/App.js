@@ -49,6 +49,10 @@ function App() {
             <Col>
               <Card>
                 <Card.Body>
+                  <Card.Img
+                    className="northcoders-logo"
+                    src="./logos/northcoders.png"
+                  />
                   <Card.Title>Samuel Jeffrey</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     Manchester, UK
@@ -99,7 +103,7 @@ function App() {
         <CardGroup className="skill-card-group">
           <Card>
             <Image className="skill-icon" src="./logos/bootstrap.svg" />
-            <h2>Boostrap</h2>
+            <h2>Bootstrap</h2>
           </Card>
           <Card>
             <Image className="skill-icon" src="./logos/react.png" />
@@ -147,7 +151,7 @@ function App() {
               Vanilla JavaScript
             </Card.Subtitle>
             <Card.Text>
-              Prior to my bootcamp, after around 1 month of self-teaching, I
+              Prior to my Bootcamp, after around 1 month of self-teaching, I
               created this site - using only HTML, CSS and JavaScript - which
               allows users to calculate net income or compound interest, as well
               as use a visual budget tool.
@@ -184,8 +188,8 @@ function App() {
             <Card.Text>
               My main solo project on the Northcoders Bootcamp is a news website
               which allows users to sort, read, post, like and comment on
-              articles. I built the back-end API with a PostgreSQL database and
-              the front-end UI uses React.
+              articles. I built the back-end API with a PostgreSQL database,
+              while the front-end UI uses React.
             </Card.Text>
             <Container>
               <Button
