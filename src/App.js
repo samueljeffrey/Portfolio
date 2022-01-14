@@ -264,6 +264,16 @@ function App() {
 
       <section id="contact">
         <h1>Contact</h1>
+        <CardGroup className="contact-card-group">
+          <Card className="contact-card">
+            <Image className="email-icon" src="./logos/email.png" />
+            <h3>samuel.jeffrey@outlook.com</h3>
+          </Card>
+          <Card className="contact-card">
+            <Image className="whatsapp-icon" src="./logos/whatsapp.png" />
+            <h3>+44 7496 764484</h3>
+          </Card>
+        </CardGroup>
       </section>
     </div>
   );

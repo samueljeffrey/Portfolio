@@ -78,4 +78,26 @@ h1 {
 /* CONTACT SECTION */
 
 #contact {
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.contact-card-group {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.contact-card {
+  margin: 5px 10px;
+  max-width: 450px;
+}
+
+.email-icon {
+  height: 90px;
+  margin: 15px auto;
+}
+
+.whatsapp-icon {
+  height: 100px;
+  margin: 10px auto;
 }
