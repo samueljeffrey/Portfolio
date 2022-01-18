@@ -123,16 +123,19 @@ function App() {
             <Image className="skill-icon" src="./logos/express.svg" />
             <h2>Express.js</h2>
           </Card>
-
           <Card>
-            <Image className="skill-icon" src="./logos/sql.png" />
-            <h2>PostgreSQL</h2>
+            <Image className="skill-icon" src="./logos/jest.png" />
+            <h2>Jest</h2>
           </Card>
         </CardGroup>
         <CardGroup className="skill-card-group">
           <Card>
-            <Image className="skill-icon" src="./logos/jest.png" />
-            <h2>Jest</h2>
+            <Image className="skill-icon" src="./logos/sql.png" />
+            <h2>PostgreSQL</h2>
+          </Card>
+          <Card>
+            <Image className="skill-icon" src="./logos/mongodb.png" />
+            <h2>MongoDB</h2>
           </Card>
         </CardGroup>
       </section>
