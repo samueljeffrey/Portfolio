@@ -120,7 +120,7 @@ function App() {
             <h2>Node.js</h2>
           </Card>
           <Card>
-            <Image className="skill-icon" src="./logos/express.svg" />
+            <Image className="skill-icon" src="./logos/express.png" />
             <h2>Express.js</h2>
           </Card>
           <Card>
