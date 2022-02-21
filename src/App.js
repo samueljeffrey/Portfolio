@@ -102,10 +102,6 @@ function App() {
         </CardGroup>
         <CardGroup className="skill-card-group">
           <Card>
-            <Image className="skill-icon" src="./logos/bootstrap.svg" />
-            <h2>Bootstrap</h2>
-          </Card>
-          <Card>
             <Image className="skill-icon" src="./logos/react.png" />
             <h2>React</h2>
           </Card>

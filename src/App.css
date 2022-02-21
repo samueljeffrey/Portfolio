@@ -44,6 +44,7 @@ h1 {
 /* SKILLS SECTION */
 
 .skill-card-group {
+  min-width: 600px;
   max-width: 1200px;
   margin: auto;
 }
