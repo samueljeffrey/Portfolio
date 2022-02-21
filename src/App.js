@@ -16,11 +16,11 @@ function App() {
   return (
     <div className="App">
       <header>
-        <Navbar fixed="top" bg="light">
+        <Navbar fixed="top" bg="light" expand="lg">
           <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="m-auto">
+              <Nav className="me-auto">
                 <Nav.Link className="nav-option" href="#about">
                   About
                 </Nav.Link>
