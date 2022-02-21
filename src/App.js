@@ -86,6 +86,7 @@ function App() {
 
       <section id="skills">
         <h1>Skills</h1>
+        <h2 className="skill-category">Frontend</h2>
         <CardGroup className="skill-card-group">
           <Card>
             <Image className="skill-icon" src="./logos/html.png" />
@@ -110,6 +111,7 @@ function App() {
             <h2>React Native</h2>
           </Card>
         </CardGroup>
+        <h2 className="skill-category">Backend</h2>
         <CardGroup className="skill-card-group">
           <Card>
             <Image className="skill-icon" src="./logos/node.png" />
