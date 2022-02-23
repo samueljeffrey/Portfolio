@@ -18,13 +18,9 @@ h1 {
 /* ABOUT SECTION */
 
 #about {
-  max-width: 750px;
+  max-width: 800px;
   margin: auto;
-}
-
-.about-half {
-  justify-content: center;
-  width: 375px;
+  margin: 25px auto;
 }
 
 #about-title {
@@ -34,6 +30,11 @@ h1 {
 #portrait {
   width: 325px;
   margin-top: 15px;
+}
+
+.about-card {
+  max-width: 350px;
+  margin: 40px auto 0;
 }
 
 .about-button {
@@ -48,14 +49,10 @@ h1 {
 
 /* SKILLS SECTION */
 
-.skill-category {
-  color: #f7f7f7;
-  margin-top: 40px;
-}
-
-.skill-card-group {
-  max-width: 1200px;
+#skills {
   margin: auto;
+  max-width: 1300px;
+  padding: 40px 10%;
 }
 
 .skill-icon {
@@ -65,19 +62,23 @@ h1 {
 
 /* PROJECTS SECTION */
 
-.card-group {
-  justify-content: center;
+#projects {
+  margin: auto;
+  max-width: 1300px;
+  padding: 40px 10%;
 }
 
-.card {
-  max-width: 320px;
+.project-card {
   padding: 15px;
-  margin: 30px;
 }
 
 .card-logo {
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.subtitle {
+  margin: 10px auto;
 }
 
 .card-button {
@@ -89,6 +90,7 @@ h1 {
 
 #contact {
   padding-bottom: 50px;
+  max-width: 800px;
   margin: auto;
 }
 
@@ -98,8 +100,8 @@ h1 {
 }
 
 .contact-card {
-  margin: 5px 10px;
-  max-width: 450px;
+  margin: auto;
+  max-width: 400px;
 }
 
 .email-icon {
