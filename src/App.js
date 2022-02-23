@@ -43,10 +43,10 @@ function App() {
         <h1 id="about-title">About</h1>
         <Container>
           <Row>
-            <Col>
+            <Col className="about-half">
               <Image src="./portrait.jpg" roundedCircle={true} id="portrait" />
             </Col>
-            <Col>
+            <Col className="about-half">
               <Card>
                 <Card.Body>
                   <Card.Img

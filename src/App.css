@@ -18,8 +18,13 @@ h1 {
 /* ABOUT SECTION */
 
 #about {
-  max-width: 900px;
+  max-width: 750px;
   margin: auto;
+}
+
+.about-half {
+  justify-content: center;
+  width: 375px;
 }
 
 #about-title {
