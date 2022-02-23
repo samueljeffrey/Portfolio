@@ -52,7 +52,7 @@ h1 {
 #skills {
   margin: auto;
   max-width: 1300px;
-  padding: 40px 10%;
+  padding: 60px 10%;
 }
 
 .skill-card {
@@ -70,7 +70,7 @@ h1 {
 #projects {
   margin: auto;
   max-width: 1300px;
-  padding: 40px 10%;
+  padding: 60px 10%;
 }
 
 .project-card {
