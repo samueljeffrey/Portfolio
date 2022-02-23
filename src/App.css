@@ -55,6 +55,11 @@ h1 {
   padding: 40px 10%;
 }
 
+.skill-card {
+  max-width: 300px;
+  margin: auto;
+}
+
 .skill-icon {
   height: 100px;
   margin: 10px auto;
@@ -69,6 +74,7 @@ h1 {
 }
 
 .project-card {
+  max-width: 350px;
   padding: 15px;
 }
 

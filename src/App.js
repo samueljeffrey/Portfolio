@@ -86,69 +86,69 @@ function App() {
         <h1>Skills</h1>
         <Row className="g-4" xs={1} md={2} lg={3}>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/html.png" />
               <h2>HTML</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/css.png" />
               <h2>CSS</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/js.png" />
               <h2>JavaScript</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/typescript.png" />
               <h2>TypeScript</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/react.png" />
               <h2>React</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/native.png" />
               <h2>React Native</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/node.png" />
               <h2>Node.js</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/express.png" />
               <h2>Express.js</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
-              <Image className="skill-icon" src="./logos/jest.png" />
-              <h2>Jest</h2>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/sql.png" />
               <h2>PostgreSQL</h2>
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card className="skill-card">
               <Image className="skill-icon" src="./logos/mongodb.png" />
               <h2>MongoDB</h2>
+            </Card>
+          </Col>
+          <Col>
+            <Card className="skill-card">
+              <Image className="skill-icon" src="./logos/jest.png" />
+              <h2>Jest</h2>
             </Card>
           </Col>
         </Row>
