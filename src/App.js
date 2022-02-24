@@ -162,43 +162,6 @@ function App() {
               <Card.Img
                 variant="top"
                 className="card-logo"
-                src="./logos/moneymethods.png"
-              />
-              <Card.Title>Money Methods</Card.Title>
-              <Card.Subtitle className="text-muted subtitle">
-                Vanilla JavaScript
-              </Card.Subtitle>
-              <Card.Text>
-                Prior to my Bootcamp, after around 1 month of self-teaching, I
-                created this site - using only HTML, CSS and JavaScript - which
-                allows users to calculate net income or compound interest, as
-                well as use a visual budget tool.
-              </Card.Text>
-              <Container>
-                <Button
-                  className="card-button btn-success"
-                  href="https://samuel-jeffrey-money-methods.netlify.app/"
-                  target="_blank"
-                >
-                  Website
-                </Button>
-              </Container>
-              <Container>
-                <Button
-                  className="card-button btn-warning"
-                  href="https://github.com/samueljeffrey/MoneyMethods"
-                  target="_blank"
-                >
-                  Front End Code
-                </Button>
-              </Container>
-            </Card>
-          </Col>
-          <Col>
-            <Card bg="light" className="project-card">
-              <Card.Img
-                variant="top"
-                className="card-logo"
                 src="./logos/ncnews.png"
               />
               <Card.Title>NC News</Card.Title>
@@ -238,7 +201,6 @@ function App() {
               </Container>
             </Card>
           </Col>
-
           <Col>
             <Card bg="light" className="project-card">
               <Card.Img
@@ -279,6 +241,80 @@ function App() {
                   target="_blank"
                 >
                   Back End Code
+                </Button>
+              </Container>
+            </Card>
+          </Col>
+          <Col>
+            <Card bg="light" className="project-card">
+              <Card.Img
+                variant="top"
+                className="card-logo"
+                src="./logos/moneymethods.png"
+              />
+              <Card.Title>Money Methods</Card.Title>
+              <Card.Subtitle className="text-muted subtitle">
+                Vanilla JavaScript
+              </Card.Subtitle>
+              <Card.Text>
+                Prior to my Bootcamp, after around 1 month of self-teaching, I
+                created this site - using only HTML, CSS and JavaScript - which
+                allows users to calculate net income or compound interest, as
+                well as use a visual budget tool.
+              </Card.Text>
+              <Container>
+                <Button
+                  className="card-button btn-success"
+                  href="https://samuel-jeffrey-money-methods.netlify.app/"
+                  target="_blank"
+                >
+                  Website
+                </Button>
+              </Container>
+              <Container>
+                <Button
+                  className="card-button btn-warning"
+                  href="https://github.com/samueljeffrey/MoneyMethods"
+                  target="_blank"
+                >
+                  Front End Code
+                </Button>
+              </Container>
+            </Card>
+          </Col>
+          <Col>
+            <Card bg="light" className="project-card">
+              <Card.Img
+                variant="top"
+                className="card-logo"
+                src="./logos/frogvsmouse.png"
+              />
+              <Card.Title>Frog Vs Mouse</Card.Title>
+              <Card.Subtitle className="text-muted subtitle">
+                Vanilla JavaScript
+              </Card.Subtitle>
+              <Card.Text>
+                During my self-taught phase, I also made a mini-game from
+                scratch. Imitating an old game played with matchsticks, players
+                take turns to select lines, with the aim of completing the most
+                squares. I did this without the help of React.
+              </Card.Text>
+              <Container>
+                <Button
+                  className="card-button btn-success"
+                  href="https://samuel-jeffrey-frog-vs-mouse.netlify.app/"
+                  target="_blank"
+                >
+                  Website
+                </Button>
+              </Container>
+              <Container>
+                <Button
+                  className="card-button btn-warning"
+                  href="https://github.com/samueljeffrey/FrogVsMouse"
+                  target="_blank"
+                >
+                  Front End Code
                 </Button>
               </Container>
             </Card>
