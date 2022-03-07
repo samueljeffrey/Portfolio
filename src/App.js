@@ -170,9 +170,9 @@ function App() {
               </Card.Subtitle>
               <Card.Text>
                 After my bootcamp, I decided to make a quiz website using React,
-                TypeScript and MongoDB. Users can play quizzes, where the text
-                input field is constantly checked for correct answers as the
-                user types. Users can also create and upload new quizzes.
+                TypeScript and MongoDB. While playing a quiz, the text input
+                field is constantly checked for correct answers as the user
+                types. Users can also create their own quizzes.
               </Card.Text>
               <Container>
                 <Button
