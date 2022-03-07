@@ -162,6 +162,50 @@ function App() {
               <Card.Img
                 variant="top"
                 className="card-logo"
+                src="./logos/quizkid.png"
+              />
+              <Card.Title>Quizkid</Card.Title>
+              <Card.Subtitle className="text-muted subtitle">
+                React &#38; TypeScript
+              </Card.Subtitle>
+              <Card.Text>
+                After my bootcamp, I decided to make a quiz website using React,
+                TypeScript and MongoDB. Users can play quizzes, where the text
+                input field is constantly checked for correct answers as the
+                user types. Users can also create and upload new quizzes.
+              </Card.Text>
+              <Container>
+                <Button
+                  className="card-button btn-success"
+                  href="https://samuel-jeffrey-quizkid.netlify.app/"
+                  target="_blank"
+                >
+                  Website
+                </Button>
+              </Container>
+              <Container>
+                <Button
+                  className="card-button btn-warning"
+                  href="https://github.com/samueljeffrey/quizkid-front-end"
+                  target="_blank"
+                >
+                  Front End Code
+                </Button>
+                <Button
+                  className="card-button btn-primary"
+                  href="https://github.com/samueljeffrey/quizkid-back-end"
+                  target="_blank"
+                >
+                  Back End Code
+                </Button>
+              </Container>
+            </Card>
+          </Col>
+          <Col>
+            <Card bg="light" className="project-card">
+              <Card.Img
+                variant="top"
+                className="card-logo"
                 src="./logos/ncnews.png"
               />
               <Card.Title>NC News</Card.Title>
